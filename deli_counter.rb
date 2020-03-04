@@ -19,7 +19,7 @@ def take_a_number(katz_deli, name)#"Welcome__, you are currently _ in line"
   puts "Welcome, #{name}. You are number #{katz_deli.size} in line." #welcomes and tells customer place in line.
 end
 
-def now_serving(katz_deli)#"Currently serving__"
+def now_servin(katz_deli)#"Currently serving__"
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else
