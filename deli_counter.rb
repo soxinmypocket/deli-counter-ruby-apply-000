@@ -7,10 +7,10 @@ def line(katz_deli) #"This line is currently:"
   else
     number = 1 #if one person is in line, break here.
     katz_deli.each do |customer|
-      line_positions << "#{number}. #{customer}" #adds numbers and customers to the end
-      number += 1 #if more than one person is in line, iterate over each item in array.
+      line_positions << "#{number}. #{customer}" #adds numbers and customers to the end of array
+      number += 1 #if more than one person is in line, iterate over each element in array.
     end
-    puts "The line is currently: #{line_positions.join(" ")}"
+    puts "The line is currently: #{line_positions.join(" ")}" # joins all numbers and customers in line.
   end
 end
 
